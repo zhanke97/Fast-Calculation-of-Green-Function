@@ -33,7 +33,7 @@ Z = [h: h: LZ];
 t = tic;
 for i= 1: length(R)
     for j= 1: length(Z)
-        %[Gf(i, j),~ ,~ ,~] = GF(R(i), Z(j));
+        %[FI(i, j),~ ,~ ,~] = GF(R(i), Z(j));
         FI(i,j) = GFRe(R(i), Z(j)); % Only calculate F(R,Z)
     end
 end
