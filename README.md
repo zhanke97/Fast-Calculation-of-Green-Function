@@ -1,5 +1,5 @@
 # Fast Calculation of Green Function
-An  improved fast calculation method for pulsating source Green function in deep water based on ODE.
+An  improved fast calculation method for pulsating source Green function in deep water based on a first order ODE.
 
 The computational accuracy and efficiency of the original method and the improved method are compared in script [Test.m](https://github.com/zhanke97/Fast-Calculation-of-Green-Function/blob/main/Test.m).
 
